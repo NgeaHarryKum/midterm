@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	/*same as above*/
+	font:normal 16px Arial, Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+.main{
+    width: 78%;
+	margin:auto;
+    margin-bottom: 0px;
+    background-color: #d3fffa;
+} 
+
+.starfish{
+    background-image: url(lone-starfish-wide.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+	background-position: center;
+}
+
+div.starfish p{
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 150px;
+    font: 45px Arial;
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    overflow: auto;
+}
+  
+/* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 1px;
+    color: #000000;
+    border-right: 1px solid #808080;
+    text-decoration: none;
+    font-size: 15px;
+    width: 33%; /* Four equal-width links. If you have two links, use 50%, and 33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+}
+
+.navbar a:last-child{
+    border-right : none;
+}
+  
+/* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(204, 204, 204);
+}
+  
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+}
