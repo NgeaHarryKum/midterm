@@ -52,12 +52,12 @@ div.starfish p{
 /* Navigation links */
   .navbar a {
     float: left;
-    padding: 12px;
+    padding: 2px;
     color: #000000;
     border-right: 1px solid #808080;
     text-decoration: none;
     font-size: 17px;
-    width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    width: 32%; /* Four equal-width links. If you have two links, use 50%, and 32% for three links, etc.. */
     text-align: center; /* If you want the text to be centered */
 }
 
